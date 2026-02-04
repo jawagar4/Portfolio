@@ -1248,7 +1248,21 @@ main {
   transition: var(--transition-1);
 }
 
-.clients-item img:hover { filter: grayscale(0); }
+.clients-item img .soft-text:hover { filter: grayscale(0); }
+
+.images {
+  border-radius: 15px;
+  height: 150px;
+  width: 100px;
+
+}
+.soft-text{
+  display: flex;
+  transition: var(--transition-1);
+  filter: grayscale(1);
+  color: cornsilk;
+}
+
 
 
 
